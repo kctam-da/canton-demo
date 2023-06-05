@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+
+  domain-db:
+    image: digitalasset/canton-open-source:2.5.3
+    ports:
+      - "5018:5018"
+      - "5019:5019"
+    tty: true
+    volumes:
+      - ./canton/config:/canton/config
+    command: daemon --config /canton/config/domain-db.conf --log-profile=container
+
+  participant-db:
+    image: digitalasset/canton-open-source:2.5.3
+    ports:
+      - "5011:5011"
+      - "5021:5021"
+    tty: true
+    volumes:
+      - ./canton/config:/canton/config
+    command: daemon --config /canton/config/participant-db.conf --log-profile=container
+
+  participant-hsbc:
+    image: digitalasset/canton-open-source:2.5.3
+    ports:
+      - "5012:5012"
+      - "5022:5022"
+    tty: true
+    volumes:
+      - ./canton/config:/canton/config
+    command: daemon --config /canton/config/participant-hsbc.conf --log-profile=container
+

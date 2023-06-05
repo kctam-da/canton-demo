@@ -1,0 +1,26 @@
+2023-05-22 16:54:43,706 [main] INFO  c.d.canton.CantonCommunityApp$ - Starting Canton version 2.5.3
+2023-05-22 16:54:44,791 [main] INFO  c.d.c.e.CommunityEnvironment - Deriving 8 as number of threads from 'sys.runtime.availableProcessors()'. Please use '-Dscala.concurrent.context.numThreads' to override.
+2023-05-22 16:54:45,092 [canton-env-execution-context-19] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2023-05-22 16:54:45,295 [main] INFO  c.d.c.e.CommunityEnvironment tid:51c2caddee5a05a512bc8532b44a12e6 - Automatically starting all instances
+2023-05-22 16:54:45,331 [main] INFO  c.d.c.e.CommunityEnvironment tid:51c2caddee5a05a512bc8532b44a12e6 - Successfully started all nodes
+2023-05-22 16:55:22,429 [canton-env-execution-context-21] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+2023-05-22 22:06:28,886 [main] INFO  c.d.canton.CantonEnterpriseApp$ - Starting Canton version 2.4.0
+2023-05-22 22:06:30,185 [main] INFO  c.d.c.e.EnterpriseEnvironment - Deriving 8 as number of threads from 'sys.runtime.availableProcessors()'. Please use '-Dscala.concurrent.context.numThreads' to override.
+2023-05-22 22:06:30,498 [canton-env-execution-context-19] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2023-05-22 22:06:30,727 [main] INFO  c.d.c.e.EnterpriseEnvironment tid:0b10d37a0a7b0b5378c64730c5816412 - Automatically starting all instances
+2023-05-22 22:06:30,743 [main] INFO  c.d.c.e.EnterpriseEnvironment tid:0b10d37a0a7b0b5378c64730c5816412 - Successfully started all nodes
+2023-05-22 22:07:09,148 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Bootstrapping domain domainmgrDB with 1 sequencers and 1
+2023-05-22 22:07:09,343 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Initializing sequencer seq1DB
+2023-05-22 22:07:11,667 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Authorizing sequencer seq1DB's signing key'
+2023-05-22 22:07:12,172 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Authorizing first mediator medDB signing key
+2023-05-22 22:07:12,540 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Authorizing mediator MED::domainmgrDB::12201718dce7...'s signing key'
+2023-05-22 22:07:12,894 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Will sequence the initial topology data via sequencer seq1DB
+2023-05-22 22:07:13,332 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Initializing first mediator medDB with GrpcSequencerConnection(endpoints = http://localhost:5018, transportSecurity = false, customTrustCertificates = None())
+2023-05-22 22:07:13,555 [main] INFO  c.d.c.c.RemoteDomainManagerReference:manager=domainmgrDB - Initializing mediator medDB with 0 topology txs to GrpcSequencerConnection(endpoints = http://localhost:5018, transportSecurity = false, customTrustCertificates = None())
+2023-05-22 22:07:51,732 [canton-env-execution-context-87] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+2023-05-22 22:12:42,607 [main] INFO  c.d.canton.CantonEnterpriseApp$ - Starting Canton version 2.4.0
+2023-05-22 22:12:43,421 [main] INFO  c.d.c.e.EnterpriseEnvironment - Deriving 8 as number of threads from 'sys.runtime.availableProcessors()'. Please use '-Dscala.concurrent.context.numThreads' to override.
+2023-05-22 22:12:43,632 [canton-env-execution-context-19] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2023-05-22 22:12:43,788 [main] INFO  c.d.c.e.EnterpriseEnvironment tid:00dec178c0a925ea650a1d58473d84eb - Automatically starting all instances
+2023-05-22 22:12:43,805 [main] INFO  c.d.c.e.EnterpriseEnvironment tid:00dec178c0a925ea650a1d58473d84eb - Successfully started all nodes
+2023-05-22 22:18:15,861 [canton-env-execution-context-23] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]

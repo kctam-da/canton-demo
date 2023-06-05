@@ -1,0 +1,6 @@
+2023-05-23 11:06:41,614 [main] INFO  c.d.canton.CantonCommunityApp$ - Starting Canton version 2.5.3
+2023-05-23 11:06:42,999 [main] INFO  c.d.c.e.CommunityEnvironment - Deriving 8 as number of threads from 'sys.runtime.availableProcessors()'. Please use '-Dscala.concurrent.context.numThreads' to override.
+2023-05-23 11:06:43,375 [canton-env-execution-context-21] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2023-05-23 11:06:43,654 [main] INFO  c.d.c.e.CommunityEnvironment tid:2a1f9e7f3d601f75665e319bf4fd6c8a - Automatically starting all instances
+2023-05-23 11:06:43,695 [main] INFO  c.d.c.e.CommunityEnvironment tid:2a1f9e7f3d601f75665e319bf4fd6c8a - Successfully started all nodes
+2023-05-23 11:07:05,907 [canton-env-execution-context-23] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
